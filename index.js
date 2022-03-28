@@ -7,7 +7,7 @@ var feelslike = document.querySelector('.feelslike');
 //var locationIcon = document.getElementsByClassName('weather-icon');
 
 button.addEventListener('click',function(){
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=imperial&appid=64699652dcf212be09f4bb3e58fb76ea') 
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=imperial&appid=77d394d688f2c87b4e65a41ad11b4153') 
     .then(response => response.json())
     .then(data => {
         var citynameValue = data ['name'];
