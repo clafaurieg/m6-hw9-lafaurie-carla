@@ -10,7 +10,7 @@ formEl.onsubmit = function(e) {
 
     if(!query) return
 
-    fetch('https://api.openweathermap.org/data/2.5/weather?appid=3af40a75938c30c0cc046280656f91a1&units=imperial&q=' + query)
+    fetch('https://api.openweathermap.org/data/2.5/weather?appid=77d394d688f2c87b4e65a41ad11b4153&units=imperial&q=' + query)
         .then(function(response) {
             return response.json()
         })
