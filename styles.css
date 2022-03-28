@@ -9,12 +9,12 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 body {
-	background-image: linear-gradient(to right, #473cde, #cbcfeb);
-	color: white;
+  background: rgb(20,81,221);
+  background: linear-gradient(90deg, rgba(20,81,221,1) 20%, rgba(70,202,252,1) 100%);
   margin: 0;
-	text-align: center;
+  text-align: center;
   min-height: 40vh;
-	padding-top: 15px;
+  padding-top: 15px;
 }
 
 h2{
