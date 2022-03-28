@@ -25,7 +25,7 @@ button.addEventListener('click',function(){
 
     })
     
-    .catch(err => alert("Wrong city name"))
+    .catch(err => alert("City imput incorrect"))
 })
 
   
