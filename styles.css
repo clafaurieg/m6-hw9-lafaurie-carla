@@ -1,9 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 body {
   min-height: 40vh;
@@ -13,10 +12,51 @@ body {
 }
 
 
-h2{
-	padding: 15px;
+
+.input {
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: center;
+
 }
 
-form {
-	padding: 19px;
+input,
+button {
+padding: 6px;
+margin-left: 1px;
+}
+
+div#icon {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+img {
+width: 135px;
+}
+
+
+h1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+button {
+  margin: auto;
+  margin-top: 5%;
+}
+
+h2{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+h3{
+  padding-top: 30%;
+  padding-bottom: 5%;
+  text-align: center;
 }
