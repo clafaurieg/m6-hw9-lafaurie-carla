@@ -13,7 +13,6 @@ button.addEventListener('click',function(){
         var tempValue = data ['main']['temp'];
         var descValue = data ['weather'][0]['description'];
         var feelslikeValue = data ['main']['feels_like'];
-        //var locationIcon = data['weather'][0]['icon'];
 
         //locationIcon.innerHTML =  locationIcon + ".png";
         cityname.innerHTML = citynameValue;
