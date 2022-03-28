@@ -4,7 +4,6 @@ var cityname = document.querySelector('.name');
 var desc = document.querySelector('.desc');
 var temp = document.querySelector('.temp');
 var feelslike = document.querySelector('.feelslike');
-//var locationIcon = document.getElementsByClassName('weather-icon');
 
 button.addEventListener('click',function(){
     fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=imperial&appid=77d394d688f2c87b4e65a41ad11b4153') 
