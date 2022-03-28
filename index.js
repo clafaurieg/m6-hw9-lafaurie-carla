@@ -14,7 +14,6 @@ button.addEventListener('click',function(){
         var descValue = data ['weather'][0]['description'];
         var feelslikeValue = data ['main']['feels_like'];
 
-        //locationIcon.innerHTML =  locationIcon + ".png";
         cityname.innerHTML = citynameValue;
         desc.innerHTML = "Weather: " + descValue;
         temp.innerHTML = "Current Temperature: " + tempValue;
